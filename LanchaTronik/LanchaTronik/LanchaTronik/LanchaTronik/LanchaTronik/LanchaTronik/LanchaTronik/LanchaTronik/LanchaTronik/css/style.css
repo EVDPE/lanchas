@@ -1,0 +1,180 @@
+*, html{
+ margin: 0px;
+ padding: 0px;
+}
+
+h2{
+    color: #fff;
+    font-family: helvetica;
+}
+
+#home{
+    background: url(../img/lancha1.jpg) 50% 0 no-repeat fixed;
+}
+#section2{
+    background: url(../img/lancha2.jpg) 50% 0 no-repeat fixed;
+}
+#section3{
+    background: url(../img/fondo5.jpg) 50% 0 no-repeat fixed;
+}
+#section4{
+    background: url(../img/fondo3.jpg) 50% 0 no-repeat fixed;
+}
+#home, #section2, #section3, #section4{
+    margin: -20px 0px -10px 0px;
+    max-width: 1920px;
+    min-height: 700px;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+}
+
+#section2, #section3, #section4{
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+.lanchas-presentacion{
+    background-color: rgba(0,0,0,0.8);
+    width: 60%;
+    height:42%;
+    position: absolute;
+    top: 30%;
+    left: 24%;
+    -webkit-border-radius: 100px;
+    -webkit-border-bottom-right-radius: 0;
+    -moz-border-radius: 100px;
+    -moz-border-radius-bottomright: 0;
+    border-radius: 100px;
+    border-bottom-right-radius: 0;
+    box-shadow: 0 0 20px #000;
+}
+.container-imagen-presentacion{
+    float:left;
+    z-index: 1;
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+}
+.imagen-presentacion{ 
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    -webkit-border-top-left-radius: 100px;
+    -webkit-border-bottom-left-radius: 100px;
+    -moz-border-radius-topleft: 100px;
+    -moz-border-radius-bottomleft: 100px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    
+}
+.texto-presentacion{
+    float: left;
+    margin-left: 20px;
+    font-family:"Times New Roman",Georgia,Serif;
+    position: relative;
+    padding-top: 0px;
+    z-index: 100;
+    color: white;
+    width: 320px;
+    text-align: justify;
+}
+.texto-presentacion h2{
+    text-shadow: 1px 1px 3px #ccc;
+    font: normal 26px/28px "dB", Helvetica, Arial, sans-serif;
+}
+.texto-presentacion p{
+    font-size: 16px;
+   line-height: 180%;
+}
+
+/* ---------- Quem somos ---------- */
+.body-quem-somos{
+    background-image: url(../img/background1.jpg);
+}
+
+.lanchas-presentacion-quemsomos{
+    background-color: rgba(0,0,0,0.6);
+    width: 1200px;
+    height:300px;
+    position: absolute;
+    top: 15%;
+    right: 6%;
+    -webkit-border-radius: 100px;
+    -webkit-border-bottom-right-radius: 0;
+    -moz-border-radius: 100px;
+    -moz-border-radius-bottomright: 0;
+    border-radius: 100px;
+    border-bottom-right-radius: 0;
+    box-shadow: 0 0 50px #999999;
+}
+
+.container-imagen-presentacion-quemsomos{
+    float:left;
+    z-index: 1;
+    display: inline-block;
+    width: 400px;
+    height: 300px;
+}
+.imagen-presentacion-quemsomos{ 
+    width: 400px;
+    height: 300px;
+    z-index: 2;
+    -webkit-border-top-left-radius: 100px;
+    -webkit-border-bottom-left-radius: 100px;
+    -moz-border-radius-topleft: 100px;
+    -moz-border-radius-bottomleft: 100px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    
+}
+.texto-presentacion-quemsomos{
+    float: left;
+    margin-left: 50px;
+    font-family:"Times New Roman",Georgia,Serif;
+    position: relative;
+    padding-top: 0px;
+    z-index: 100;
+    color: white;
+    width: 700px;
+    text-align: justify;
+    line-height: 180%;
+    font-size: 16px;
+}
+
+.texto-presentacion-quemsomos h2{
+    text-shadow: 1px 1px 3px #ccc;
+    font: normal 26px/28px "dB", Helvetica, Arial, sans-serif;
+    text-align: center;
+    padding-bottom: 10px;   
+}
+
+/* -------------- Como chegar ----------------------*/
+.legends{
+ padding-bottom: 5px;   
+ box-shadow: -1px 1px 1px #CCC;
+ 
+}
+#results{
+ width:100%; height: 100%; margin-left: 0%;
+ position: absolute;
+}
+.form-comochegar{  position: absolute; top: 10%; left:44%; z-index: 1; }
+
+/* ---------------------- Contato ------------------------------*/
+.body-contato{
+    background-image: url(../img/background2.jpg);
+    margin-top: 10px;
+}
+
+#legend-contato{
+    text-align: center;
+    font-family: 'Georgia', 'Arial', sans-serif;
+}
+
+.label-contato{
+    font-family: 'Georgia', 'Arial', sans-serif;
+}
